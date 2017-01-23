@@ -1,0 +1,59 @@
+<?php
+
+namespace DummyNamespace;
+
+use RootNamespaceUser;
+use DummyRootNamespaceVarName;
+use Illuminate\Auth\Access\HandlesAuthorization;
+
+class VarNamePolicy
+{
+    use HandlesAuthorization;
+
+    /**
+     * Determine whether the user can view the varName.
+     *
+     * @param  \DummyRootNamespaceUser  $user
+     * @param  \DummyRootNamespaceVarName  $varName
+     * @return mixed
+     */
+    public function view(User $user, VarName $varName)
+    {
+        //
+    }
+
+    /**
+     * Determine whether the user can create dummyPluralVarName.
+     *
+     * @param  \DummyRootNamespaceUser  $user
+     * @return mixed
+     */
+    public function create(User $user)
+    {
+        //
+    }
+
+    /**
+     * Determine whether the user can update the varName.
+     *
+     * @param  \DummyRootNamespaceUser  $user
+     * @param  \DummyRootNamespaceVarName  $varName
+     * @return mixed
+     */
+    public function update(User $user, VarName $varName)
+    {
+        //
+    }
+
+    /**
+     * Determine whether the user can delete the varName.
+     *
+     * @param  \DummyRootNamespaceUser  $user
+     * @param  \DummyRootNamespaceVarName  $varName
+     * @return mixed
+     */
+    public function delete(User $user, VarName $varName)
+    {
+        //
+    }
+}

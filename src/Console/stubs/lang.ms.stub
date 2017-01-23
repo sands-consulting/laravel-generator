@@ -1,0 +1,36 @@
+<?php
+
+return [
+    'title' => 'Var Names',
+
+    'attributes' => [
+        'name' => 'Nama',
+        'label' => 'Label',
+        'status' => 'Status',
+    ],
+
+    'notices' => [
+        'created' => 'Var Name telah berjaya disimpan.',
+        'updated' => 'Var Name telah berjaya dikemaskini.',
+        'deleted' => 'Var Name telah berjaya dipadam.'
+    ],
+
+    'views' => [
+        'index' => [
+            'title' => 'Senarai',
+            'breadcrumb' => 'Senarai',
+        ],
+        'create' => [
+            'title' => 'Cipta',
+            'breadcrumb' => 'Cipta',
+        ],
+        'edit' => [
+            'title' => 'Kemaskini',
+            'breadcrumb' => 'kemaskini',
+        ],
+        'show' => [
+            'title' => 'Papar',
+            'breadcrumb' => 'Papar',
+        ]
+    ]
+];

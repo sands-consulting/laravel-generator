@@ -1,0 +1,36 @@
+<?php
+
+return [
+    'title' => 'Var Names',
+
+    'attributes' => [
+        'name' => 'Name',
+        'label' => 'Label',
+        'status' => 'Status',
+    ],
+
+    'notices' => [
+        'created' => 'Var Name has been successfully created.',
+        'updated' => 'Var Name has been successfully updated.',
+        'deleted' => 'Var Name has been successfully deleted.'
+    ],
+
+    'views' => [
+        'index' => [
+            'title' => 'List',
+            'breadcrumb' => 'List',
+        ],
+        'create' => [
+            'title' => 'Create',
+            'breadcrumb' => 'New Test',
+        ],
+        'edit' => [
+            'title' => 'Edit',
+            'breadcrumb' => 'Edit',
+        ],
+        'show' => [
+            'title' => 'Show',
+            'breadcrumb' => 'Edit',
+        ]
+    ]
+];

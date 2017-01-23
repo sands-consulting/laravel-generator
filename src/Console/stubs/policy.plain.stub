@@ -1,0 +1,21 @@
+<?php
+
+namespace DummyNamespace;
+
+use RootNamespaceUser;
+use Illuminate\Auth\Access\HandlesAuthorization;
+
+class VarNamePolicy
+{
+    use HandlesAuthorization;
+
+    /**
+     * Create a new policy instance.
+     *
+     * @return void
+     */
+    public function __construct()
+    {
+        //
+    }
+}

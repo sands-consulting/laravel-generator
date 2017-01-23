@@ -161,8 +161,8 @@ class LaravelGeneratorServiceProvider extends ServiceProvider
     public function boot()
     {
         $this->publishes([
-            __DIR__.'/../config/config.php' => config_path('aminadha/laravel-generator/config.php'),
-            __DIR__.'/Console/stubs/' => config_path('aminadha/laravel-generator/stubs')
+            __DIR__.'/../config/config.php' => config_path('sands/laravel-generator/config.php'),
+            __DIR__.'/Console/stubs/' => config_path('sands/laravel-generator/stubs')
         ], 'laravel-generator');
     }
 }
